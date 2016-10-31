@@ -13,7 +13,7 @@ public class FormAction implements Action {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		WebUtil.forward("/WEB-INF/views/form.jsp", request, response);
+		WebUtil.forward("/WEB-INF/views/joinform.jsp", request, response);
 	}
 	
 	
